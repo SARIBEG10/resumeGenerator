@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+		"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Title</title>
+</head>
+<body>
+	<h2> {{ user_profile.name }}</h2>
+	<h2> {{ user_profile.email }}</h2>
+	<h2> {{ user_profile.phone }}</h2>
+	<hr/>
+	<br/>
+	<p>Summary</p>
+	<p> {{ user_profile.summary }}</p>
+	<p>Skills</p>
+	<p> {{ user_profile.skills }}</p>
+	<p>Education</p>
+	<ul>
+	<li> {{ user_profile.school }}</li>
+	<li> {{ user_profile.university }}</li>
+	</ul>
+</body>
+</html>
